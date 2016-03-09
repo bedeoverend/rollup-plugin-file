@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-file",
+  "version": "0.1.0",
+  "description": "Rollup plugin to allow a file as an entry point",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedeoverend/rollup-plugin-file.git"
+  },
+  "keywords": [
+    "rollup",
+    "file",
+    "plugin"
+  ],
+  "author": "Bede Overend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bedeoverend/rollup-plugin-file/issues"
+  },
+  "homepage": "https://github.com/bedeoverend/rollup-plugin-file#readme",
+  "dependencies": {
+    "shortid": "^2.2.4"
+  }
+}
