@@ -46,14 +46,14 @@ instead of this directly for Gulp, and use alongside [`gulp-process-inline`][gul
 MIT © [Simpla](https://simpla.io)
 
 
-[npm-badge]: https://img.shields.io/npm/v/rollup-plugin-inline.svg
-[npm-url]: https://npmjs.org/package/rollup-plugin-inline
-[travis-badge]: https://img.shields.io/travis/simplaio/rollup-plugin-inline.svg
-[travis-url]: https://travis-ci.org/simplaio/rollup-plugin-inline
-[npmdeps-badge]: https://img.shields.io/david/simplaio/rollup-plugin-inline.svg
-[npmdeps-url]: https://david-dm.org/simplaio/rollup-plugin-inline
-[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/rollup-plugin-inline.svg?theme=shields.io
-[npmdevdeps-url]: https://david-dm.org/simplaio/rollup-plugin-inline#info=devDependencies
+[npm-badge]: https://img.shields.io/npm/v/rollup-plugin-file.svg
+[npm-url]: https://npmjs.org/package/rollup-plugin-file
+[travis-badge]: https://img.shields.io/travis/simplaio/rollup-plugin-file.svg
+[travis-url]: https://travis-ci.org/simplaio/rollup-plugin-file
+[npmdeps-badge]: https://img.shields.io/david/simplaio/rollup-plugin-file.svg
+[npmdeps-url]: https://david-dm.org/simplaio/rollup-plugin-file
+[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/rollup-plugin-file.svg?theme=shields.io
+[npmdevdeps-url]: https://david-dm.org/simplaio/rollup-plugin-file#info=devDependencies
 [gulp]: http://gulpjs.com/
 [gulp-rollup-file]: https://github.com/simplaio/gulp-rollup-file
 [gulp-process-inline]: https://github.com/simplaio/gulp-process-inline
