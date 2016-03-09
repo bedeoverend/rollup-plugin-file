@@ -18,11 +18,11 @@ module.exports = function() {
         return id;
       }
 
-      if (paths[importer]) {
+      if (paths[importer] && importee[0] === '.') {
         var file = paths[importer],
             requirePath = path.resolve(file.base, importee);
 
-        return require.resolve(requirePath);;
+        return require.resolve(requirePath);
       }
     }
   };
