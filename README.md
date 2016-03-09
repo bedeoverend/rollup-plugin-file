@@ -1,22 +1,23 @@
-# rollup-plugin-file
+# Rollup Plugin File
+[![][npm-badge]][npm-url] [![][travis-badge]][travis-url] [![][npmdeps-badge]][npmdeps-url] [![][npmdevdeps-badge]][npmdevdeps-url]
 
-Basic rollup plugin to read a file (or vinyl) as an entry, rather than a string. Mainly for use with [gulp-process-inline](https://github.com/simplaio/gulp-process-inline)
+
+Rollup plugin to read a file (or vinyl) as an entry, rather than a string.
 
 ## Installation
-```bash
-npm install rollup-plugin-file
+```shell
+npm install --save-dev rollup-plugin-file
 ```
 
 ## Usage
-
 The entry file must have the `base` property. Any imports in the entry file will be looked for relative to the `base` filepath.
 
-The below is a gulp example, however it can be used with any file as long as it has the `base` property.
+The below is a [Gulp][gulp] example, however it can be used with any file as long as it has the `base` property.
 
 ```js
 import rollupFile from 'rollup-plugin-file';
 import rollup from 'rollup';
-import gulp from 'vinyl';
+import gulp from 'gulp';
 
 gulp.task('rollup', function() {
   return gulp.src('./src/*.js')
@@ -36,3 +37,23 @@ gulp.task('rollup', function() {
     .pipe(gulp.dest('./dist'));
 });
 ```
+
+Use [`gulp-rollup-file`][gulp-rollup-file]
+instead of this directly for Gulp, and use alongside [`gulp-process-inline`][gulp-process-inline] to use Rollup with inline `<script>` blocks in HTML.
+
+## License
+
+MIT © [Simpla](https://simpla.io)
+
+
+[npm-badge]: https://img.shields.io/npm/v/rollup-plugin-inline.svg
+[npm-url]: https://npmjs.org/package/rollup-plugin-inline
+[travis-badge]: https://img.shields.io/travis/simplaio/rollup-plugin-inline.svg
+[travis-url]: https://travis-ci.org/simplaio/rollup-plugin-inline
+[npmdeps-badge]: https://img.shields.io/david/simplaio/rollup-plugin-inline.svg
+[npmdeps-url]: https://david-dm.org/simplaio/rollup-plugin-inline
+[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/rollup-plugin-inline.svg?theme=shields.io
+[npmdevdeps-url]: https://david-dm.org/simplaio/rollup-plugin-inline#info=devDependencies
+[gulp]: http://gulpjs.com/
+[gulp-rollup-file]: https://github.com/simplaio/gulp-rollup-file
+[gulp-process-inline]: https://github.com/simplaio/gulp-process-inline
