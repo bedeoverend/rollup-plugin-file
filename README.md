@@ -41,6 +41,9 @@ gulp.task('rollup', function() {
 Use [`gulp-rollup-file`][gulp-rollup-file]
 instead of this directly for Gulp, and use alongside [`gulp-process-inline`][gulp-process-inline] to use Rollup with inline `<script>` blocks in HTML.
 
+## TODO
+- Add tests
+
 ## License
 
 MIT © [Simpla](https://simpla.io)
