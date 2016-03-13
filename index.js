@@ -20,7 +20,10 @@ module.exports = function() {
 
       if (paths[importer] && importee[0] === '.') {
         var file = paths[importer],
-            requirePath = path.resolve(file.base, importee);
+            // Note: use path.dirname(file.path) instead of file.base, so when
+            //  globbing it doesn't use the root of the glob as the base dir
+            folder = path.dirname(file.path),
+            requirePath = path.resolve(folder, importee);
 
         return require.resolve(requirePath);
       }
