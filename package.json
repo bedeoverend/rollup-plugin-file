@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rollup plugin to allow a file as an entry point",
   "main": "index.js",
   "scripts": {
