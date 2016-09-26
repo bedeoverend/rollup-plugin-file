@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simplaio/rollup-plugin-file.git"
+    "url": "git+https://github.com/bedeoverend/rollup-plugin-file.git"
   },
   "keywords": [
     "rollup",
     "file",
     "plugin"
   ],
-  "author": "Simpla <admin@simpla.io>",
+  "author": "Bede Overend",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simplaio/rollup-plugin-file/issues"
+    "url": "https://github.com/bedeoverend/rollup-plugin-file/issues"
   },
-  "homepage": "https://github.com/simplaio/rollup-plugin-file#readme",
+  "homepage": "https://github.com/bedeoverend/rollup-plugin-file#readme",
   "dependencies": {
     "shortid": "^2.2.4"
   }
